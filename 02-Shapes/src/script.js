@@ -11,8 +11,8 @@ const camera = new THREE.PerspectiveCamera(30, aspect)
 camera.position.set(3, 3, 8)
 camera.lookAt(new THREE.Vector3())
 
-const geometry = new THREE.BoxGeometry(2, 2, 2)
-const material = new THREE.MeshPhongMaterial()
+const geometry = new THREE.BoxGeometry(2, 1, 4)
+const material = new THREE.MeshPhongMaterial({color: 'coral'})
 
 const cube = new THREE.Mesh(geometry, material)
 scene.add(cube)
