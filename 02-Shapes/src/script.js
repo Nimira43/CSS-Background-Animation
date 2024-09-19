@@ -18,13 +18,13 @@ const material = new THREE.MeshPhongMaterial()
 let cube = new THREE.Mesh(geometry, material)
 scene.add(cube)
 
-const light = new THREE.PointLight()
+const light = new THREE.DirectionalLight()
 light.position.set(3, 4, 5)
 scene.add(light)
 
-light = new THREE.PointLight()
-light.position.set(-3, 4, -5)
-scene.add(light)
+const light2 = new THREE.DirectionalLight()
+light2.position.set(-4, 5, -6)
+scene.add(light2)
 
 function drawFrame() {
   scene.rotation.y += 0.005
