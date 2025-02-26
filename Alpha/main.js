@@ -1,7 +1,6 @@
 import * as THREE from 'three'
 
 const scene = new THREE.Scene()
-
 const camera = new THREE.PerspectiveCamera(
   75,
   window.innerWidth / window.innerHeight,
@@ -14,7 +13,8 @@ const renderer = new THREE.WebGLRenderer()
 renderer.setSize(window.innerWidth, window.innerHeight)
 document.body.appendChild(renderer.domElement)
 
-const geometry = new THREE.BoxGeometry(2, 2, 2)
+// const geometry = new THREE.BoxGeometry(4, 7, 8)
+const geometry = new THREE.SphereGeometry(7, 9, 38)
 const material = new THREE.MeshBasicMaterial({
   color: 0xff4500,
   wireframe: true
