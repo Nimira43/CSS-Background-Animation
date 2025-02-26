@@ -14,7 +14,9 @@ renderer.setSize(window.innerWidth, window.innerHeight)
 document.body.appendChild(renderer.domElement)
 
 // const geometry = new THREE.BoxGeometry(4, 7, 8)
-const geometry = new THREE.SphereGeometry(7, 9, 38)
+// const geometry = new THREE.SphereGeometry(7, 9, 38)
+// const geometry = new THREE.PlaneGeometry(12, 5, 21, 17)
+const geometry = new THREE.CylinderGeometry(2, 7, 9, 17, 9, 8)
 const material = new THREE.MeshBasicMaterial({
   color: 0xff4500,
   wireframe: true
