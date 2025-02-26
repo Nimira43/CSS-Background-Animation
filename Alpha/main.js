@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 
-console.log(THREE)
+const scene = new THREE.Scene()
 
 const camera = new THREE.PerspectiveCamera(
   75,
@@ -20,3 +20,5 @@ const material = new THREE.MeshBasicMaterial({
   wireframe: true
 })
 const cube = new THREE.Mesh(geometry, material)
+scene.add(cube)
+renderer.render(scene, camera)
