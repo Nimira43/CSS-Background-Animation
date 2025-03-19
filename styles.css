@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: 'Frederick the Great', serif;
+  font-family: 'Fredericka the Great', serif;
   background-color: var(--dark);
 }
 
@@ -18,4 +18,17 @@ body {
   position: relative;
   height: 100vh;
   overflow: hidden;
+}
+
+h2 {
+  margin: 0;
+  color: var(--gold);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 1;
 }
