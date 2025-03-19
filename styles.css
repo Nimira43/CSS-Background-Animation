@@ -43,6 +43,8 @@ h2 {
   width: 10px;
   height: 10px;
   border: 1px solid var(--orange);
+  animation: boxes 12s ease-in infinite;
+  transform: scale(0);
 }
 
 .box:nth-child(2) {
