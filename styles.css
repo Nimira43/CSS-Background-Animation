@@ -74,3 +74,14 @@ h2 {
   left: 50%;
   border-color: var(--magenta);
 }
+
+@keyframes boxes {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(20) rotate(960deg);
+    opacity: 0;
+  }
+}
