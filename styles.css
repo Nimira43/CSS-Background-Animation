@@ -1,2 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
+:root {
+  --dark: #111;
+  --light: #fffcfa;
+  --orange: #ff4500;
+  --gold: #ffd700;
+  --red: #780a0a;
+
+}
+
+body {
+  font-family: 'Frederick the Great', serif;
+  background-color: var(--dark);
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
