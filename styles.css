@@ -41,3 +41,9 @@ h2 {
   height: 10px;
   border: 1px solid var(--orange);
 }
+
+.box:nth-child(2) {
+  top: 40%;
+  left: 25%;
+  border-color: var(--light);
+}
