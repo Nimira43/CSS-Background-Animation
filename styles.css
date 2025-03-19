@@ -29,6 +29,15 @@ h2 {
   transform: translate(-50%, -50%);
   font-size: 45px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   z-index: 1;
+}
+
+.box {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--orange);
 }
