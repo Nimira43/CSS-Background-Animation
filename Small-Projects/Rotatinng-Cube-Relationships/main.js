@@ -38,6 +38,8 @@ function animate() {
   requestAnimationFrame(animate)
   cube3.rotation.x += 0.01
   cube3.rotation.y += 0.01  
+  cube4.rotation.x += 0.01
+  cube4.rotation.y += 0.01  
   renderer.render(scene, camera)
 }
 
